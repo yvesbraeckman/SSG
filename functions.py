@@ -20,10 +20,10 @@ def get_yaml(article):
     return yml_data
 
 
-def insert_html(html, yml, i):
+def insert_html(html, yml, i, template):
     site_name = "Static Site Generator"
     template_env = Environment(loader=FileSystemLoader(searchpath='./'))
-    template = template_env.get_template("templates/template_1.html")
+    template = template_env.get_template(template)
     with open('index' + str(i) + '.html', 'w') as output_file:
         output_file.write(
             template.render(
