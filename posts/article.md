@@ -1,8 +1,6 @@
 ---
-title: "Your document's title"
-keywords:
-  - A keyword
-  - Another keyword
+title: Your document's title
+Another: keyword
 author: The Zettlr Team
 ---
 
