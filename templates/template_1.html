@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <meta name="description" content="{{ description }}">
+    <meta name="keywords" content="{{ keywords }}">
+  </head>
+  <body>
+    <header>
+      <h1>{{ site_name }}</h1>
+      <nav>
+        <ul>
+          <li><a href="index0.html">Home</a></li>
+          <li><a href="index1.html">artikel 2</a></li>
+          <li><a href="index2.html">artikel 3</a></li>
+          <li><a href="/contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <h2><a>{{ title }}</a></h2>
+        <div>{{ article }}</div>
+      </article>
+    </main>
+    <footer>
+      <p>&copy; {{ current_year }} {{ site_name }}. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
